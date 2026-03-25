@@ -20,8 +20,12 @@ public class EOS_Learning : ModuleRules
 			"GameplayStateTreeModule",
 			"Niagara",
 			"UMG",
-			"Slate"
-		});
+			"Slate",
+            "OnlineSubsystem",      // Base Online Subsystem
+			"OnlineSubsystemEOS",   // Epic Online Services implementation
+			"OnlineSubsystemUtils", // Helpers for OSS
+			"EOSSDK"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 

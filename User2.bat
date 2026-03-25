@@ -1,0 +1,1 @@
+"D:\UE_5.7\Engine\Binaries\Win64\UnrealEditor.exe" "D:\Project\EOS_Learning\EOS_Learning.uproject" -game -windowed -ResX=960 -ResY=540 -AUTH_TYPE=developer -AUTH_LOGIN=localhost:8081 -AUTH_PASSWORD=User2
