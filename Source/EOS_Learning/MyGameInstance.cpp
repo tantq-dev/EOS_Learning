@@ -130,7 +130,7 @@ void UMyGameInstance::OnCreateSessionComplete(FName SessionName, bool bWasSucces
     if (bWasSuccessful)
     {
         // Open your map as a listen server
-        UGameplayStatics::OpenLevel(GetWorld(), "Lvl_TopDown", true, "listen");
+        UGameplayStatics::OpenLevel(GetWorld(), "Gameplay", true, "listen");
     }
 }
 
